@@ -12,12 +12,18 @@ This repository contains the "Research Agent" code, an AI tool designed to help 
 ## Getting Started
 
 1. **Clone the Repository:**
+   
     `git clone https://github.com/AliBeiramiii/research-agent.git`
    
-2. Install Dependencies:
-   `pip install -r requirements.txt`
+2. **Install Dependencies**:
+   
+   `pip install ollama`
+   
+   ```ollama pull mistral```
+3. **Run the Agent**:
 
-3. Run the Agent:
+   `cd research_agent/`
+   
    ` python research_agent.py`
 
  * The agent will prompt you for your research question.
