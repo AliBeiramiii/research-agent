@@ -30,7 +30,7 @@ This repository contains the "Research Agent" code, an AI tool designed to help 
 
 ## Example
 <div align="center">
-    <img height="400px" src="https://github.com/AliBeiramiii/research-agent/blob/main/data/overview.jpg?raw=true">
+    <img height="400px" src="https://github.com/AliBeiramiii/research-agent/blob/main/data/Overview.jpg?raw=true">
    <br>
    <img height="600px" src="https://github.com/AliBeiramiii/research-agent/blob/main/data/Flowchart.jpg?raw=true">
 </div> 
