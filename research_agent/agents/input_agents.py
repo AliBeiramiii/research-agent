@@ -1,12 +1,11 @@
 import asyncio
 import json
 from functools import partial
-import re
 from ollama import generate
 from research_agent.system_messages import agent_input_eval_system_message, agent_input_prompt_improver_system_message
 
 
-with open('workflows/agents/config.json', 'r') as config_file:
+with open('research_agent/agents/config.json', 'r') as config_file:
     config = json.load(config_file)
 
 models_config = config['models']

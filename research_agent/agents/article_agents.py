@@ -4,7 +4,7 @@ from functools import partial
 from ollama import generate
 
 
-with open('workflows/agents/config.json', 'r') as config_file:
+with open('research_agent/agents/config.json', 'r') as config_file:
     config = json.load(config_file)
 
 models_config = config['models']
